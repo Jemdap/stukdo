@@ -1,5 +1,5 @@
 Stukdo::Application.routes.draw do
-  
+ 
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
@@ -52,7 +52,7 @@ Stukdo::Application.routes.draw do
   # just remember to delete public/index.html.
    root :to => 'pages#home'
 
-   get 'about' => "pages#home"
+   get 'about' => "pages#about"
 
   # See how all your routes lay out with "rake routes"
 
